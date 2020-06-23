@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Corbel;
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    cursor: default;
+    color: #F6F6F6;
+    background-color: #1A1629;
+}
+
+.group {
+    display: flex;
+    list-style: none;
+    margin-left: 10vw;
+}
+
+.homepic {
+    position: relative;
+    height: 50vw;
+    width: auto;
+    z-index: 2;
+    margin-right: 3vw;
+}
+
+.homepic:hover {
+    position: relative;
+    height: 50vw;
+    width: auto;
+    z-index: 2;
+    background-color: #502255;
+}
+
+.mediapic {
+    position: relative;
+    height: 50vw;
+    width: auto;
+    z-index: 2;
+    margin-right: 3vw;
+}
+
+.mediapic:hover {
+    position: relative;
+    height: 50vw;
+    width: auto;
+    z-index: 2;
+    background-color: #502255;
+}
+
+.qapic {
+    position: relative;
+    height: 50vw;
+    width: auto;
+    z-index: 2;
+    margin-right: 3vw;
+}
+
+.qapic:hover {
+    position: relative;
+    height: 50vw;
+    width: auto;
+    z-index: 2;
+    background-color: #502255;
+}
+
+.conpic {
+    position: relative;
+    height: 50vw;
+    width: auto;
+    z-index: 2;
+}
+
+.conpic:hover {
+    position: relative;
+    height: 50vw;
+    width: auto;
+    z-index: 2;
+    background-color: #502255;
+}
+
+.square {
+    position: absolute;
+    width: 98vw;
+    height: 47vw;
+    border-style: solid;
+    border-width: 0.5vw;
+    border-color: #8670F3;
+    opacity: 43%;
+    top: 1vw;
+    left: 1vw;
+    z-index: 0;
+}

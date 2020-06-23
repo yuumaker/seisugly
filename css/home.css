@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family:Corbel;
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    cursor: default;
+    color:#F6F6F6;
+    background-color: #1A1629;
+}
+
+.line{
+    width:2.3vw;
+    height:0.26vw ;
+    background: #C3C3C3;
+    margin: 0.5vw;
+}
+
+.hamburger{
+    position: fixed;
+    cursor: pointer;
+    top:5vw;
+    right: 5%;
+    /* top: 50%; */
+    transform: translate(-5%,-50%);
+    z-index: 11;
+} 
+
+.bigTJ{
+    position: relative;
+    width:95%;
+    height: auto;
+    top:-60vw;
+}
+
+.skeTJ{
+    position: relative;
+    width:75%;
+    height: auto;
+    top:-5vw;
+    left:20vw;
+}
+
+.bigF{
+    position: relative;
+    width:75%;
+    height: auto;
+    top:-140vw;
+    left:-13vw;
+    z-index: -1;
+}
+
+.title{
+    position: relative;
+    top:-93vw;
+    left:15vw;
+}
+
+.port{
+    position: relative;
+    font-size: 1vw ;
+    letter-spacing:1.1vw;
+    left:1vw;
+    top:-1vw;
+}
+
+.silly{
+    position: relative;
+    font-size: 5.5vw;
+    font-weight: 900;
+}
+
+.elephant{
+    position: relative;
+    font-size: 5.5vw;
+    font-weight: 900;
+    top:-2vw;
+    left:0.1vw;
+}
+
+.square{
+    position: absolute;
+    width:98vw;
+    height:47vw;
+    border-style: solid;
+    border-width: 0.5vw;
+    border-color:#8670F3;
+    opacity: 43%;
+    top:1vw;
+    left:1vw;
+}
+
+.next{
+    position: relative;
+    width:17.29vw;
+    height:4.7vw;
+    border-style: solid;
+    border-width: 0.16vw;
+    border-color:#E84978;
+    top:-90vw;
+    left:16vw;
+}
+
+.word{
+    position: relative;
+    font-size: 1.2vw;
+    top:1.5vw;
+    left:4vw;
+}
+
+.click{
+    width:4.53vw;
+    height:4.6vw;
+}
+
+.clicksqu{
+    position:relative;
+    width:4.53vw;
+    height:4.6vw;
+    background-color: #CB407C;
+    opacity: 31%;
+    top:-1.5vw;
+    left:12.5vw;
+}
+
+.triangle{
+    position: relative;
+    top:-4.5vw;
+    left:14.5vw;
+}
+
+.logo{
+    position: relative;
+    width: 12vw;
+    height:9vw;
+    top:-93vw;
+    left:87.5vw;
+}
+
